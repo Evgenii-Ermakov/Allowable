@@ -4,7 +4,7 @@
 #include <iostream>
 
 #include "protected_class.h"
-#include "Allow.h"
+#include "allow.h"
 
 int main()
 {
