@@ -31,8 +31,3 @@ std::ostream& operator<<(std::ostream& os, const protected_class& value)
 	os << "int = " << value.get_int() << ", double = " << value.get_double();
 	return os;
 }
-
-void abstarct::func()
-{
-	return;
-}
