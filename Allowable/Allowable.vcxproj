@@ -24,6 +24,7 @@
     <ProjectGuid>{c99048b3-c23a-4b9e-8a2a-4567c760ffe5}</ProjectGuid>
     <RootNamespace>CRTP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Allowable</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -135,12 +136,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Allow.cpp" />
-    <ClCompile Include="CRTP.cpp" />
+    <ClCompile Include="allow.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="protected_class.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Allow.h" />
+    <ClInclude Include="allow.h" />
     <ClInclude Include="protected_class.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
